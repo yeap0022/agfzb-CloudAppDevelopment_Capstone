@@ -34,7 +34,7 @@ def about(request):
 def contact(request):
     context = {}
     if request.method == "GET":
-        return render(request, 'djangoapp/contactus.html', context)
+        return render(request, 'djangoapp/contact.html', context)
 
 # Create a `login_request` view to handle sign in request
 # def login_request(request):
